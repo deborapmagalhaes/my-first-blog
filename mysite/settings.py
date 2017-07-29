@@ -25,7 +25,7 @@ SECRET_KEY = '!=x-j$06s@(d#xtozo0%p$hbedn@86j)&!vob82h6=+fg*!=@y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','deborapmagalhaes.pythonanywhere.com']
 
 
 # Application definition
@@ -39,8 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',    
 ]
-
-ALLOWED_HOSTS = ['deborapmagalhaes.pythonanywhere.com']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
