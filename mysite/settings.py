@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'blog',    
 ]
 
+ALLOWED_HOSTS = ['deborapmagalhaes.pythonanywhere.com']
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
